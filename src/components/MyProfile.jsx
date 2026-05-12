@@ -1,13 +1,16 @@
 import NavBar from "./NavBar";
 import "./styles/MyProfile.css";
+import AppContext from "../contexts/AppContext";
+import { useContext } from "react";
 
 function MyProfile({
   userData = { username: "Nome de usuário aqui", email: "E-mail aqui" },
 }) {
+  const { setIsLoggedIn } = useContext(AppContext);
   const { username, email } = userData;
   return (
     <>
-      <NavBar />
+      <NavBar setIsLoggedIn={setIsLoggedIn} />
       <div className="my-profile">
         <div className="my-profile__container">
           <div className="my-profile__header">
