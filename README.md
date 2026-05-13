@@ -2,6 +2,8 @@
 
 ## Live Demo
 
+- Link: https://rodrigomzanetti.github.io/frontend-authorization-demo/
+
 ## Preview
 
 ![Preview](./public/preview-gif.gif)
@@ -43,7 +45,7 @@ Future improvements may include performance optimization and code modularization
 ## Installation & Setup
 
 - Clone the repository
-  bashgit clone https://github.com/your-username/frontend-authorization-demo.git
+  bashgit clone github.com/RodrigoMZanetti/frontend-authorization-demo
 
 - Navigate to the project directory
   bashcd frontend-authorization-demo
@@ -58,6 +60,7 @@ Future improvements may include performance optimization and code modularization
 
 ## Project Structure
 
+```
 frontend-authorization-demo/
 ├── public/
 ├── src/
@@ -86,6 +89,7 @@ frontend-authorization-demo/
 ├── index.html
 ├── package.json
 └── vite.config.js
+```
 
 ## What I Learned
 
